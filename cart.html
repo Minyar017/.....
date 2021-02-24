@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="cart.css" />
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <script></script>
+    <nav>
+        <ul>
+            <strong>
+                <a href="html.html">Home |</a>
+            </strong>
+            <strong>
+                <a href="About.html">About |</a>
+            </strong>
+            <strong>
+                <a href="contact.html">Contact |</a>
+            </strong>
+        </ul>
+    </nav>
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-logo">
+                <h1 class="font-weight-bold"><em>Shopping Cart</em></h1>
+            </div>
+        </div>
+    </section>
+
+
+    </br>
+    <!--Cart Section-->
+    <div onsubmit="verif()">
+        <section class="mt-5">
+            <div class="container">
+                <div class="cart">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col" class="text-white">Product</th>
+                                    <th scope="col" class="text-white">Price</th>
+                                    <th scope="col" class="text-white">Quantity</th>
+                                    <th scope="col" class="text-white">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="main">
+                                            <div class="d-flex">
+                                                <!--W=145 H=98--> <img src="kkk.jpg" alt="" height="98" width="145">
+                                            </div>
+                                            <div class="des">
+                                                <p>pink keyboard and mouse</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+
+                                        <h6>$30.00</h6>
+
+                                    </td>
+                                    <td>
+                                        <div class="counter">
+
+                                            <button> <i>+</i></button>
+
+
+                                            <input class="input-number" type="text" value="1" min="0" max="10">
+
+                                            <button><i>-</i></button>
+
+                                        </div>
+                                    </td>
+                                    <td>
+
+                                        <h6>$30.00</h6>
+
+                                    </td>
+                                </tr>
+                                <!----->
+                                <tr>
+                                    <td>
+                                        <div class="main">
+                                            <div class="d-flex">
+                                                <!--W=145 H=98--> <img src="kk.jpg" alt="" height="98" width="145">
+                                            </div>
+                                            <div class="des">
+                                                <p> keyboard </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+
+                                        <h6>$20.00</h6>
+
+                                    </td>
+
+                                    <td>
+
+                                        <div class="counter">
+                                            <button> <i>+</i></button>
+
+
+                                            <input class="input-number" type="text" value="1" min="0" max="10">
+                                            <button>
+                                                <i>-</i></button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div id="bb">
+                                            <h6>$20.00</h6>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!----->
+                                <tr>
+                                    <td>
+                                        <div class="main">
+                                            <div class="d-flex">
+                                                <!--W=145 H=98--> <img src="k.jpg" alt="" width="145" height="98">
+                                            </div>
+                                            <div class="des">
+                                                <p>simple pink keyboard </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h6>$20.00</h6>
+                                    </td>
+                                    <td>
+                                        <div class="counter">
+                                            <button> <i>+</i></button>
+
+                                            <input class="input-number" type="text" value="1" min="0" max="10">
+                                            <button>
+                                                <i>-</i></button>
+                                        </div>
+                                    </td>
+                                    <td>  
+                                         <h6>$20.00</h6>
+                                    </td>
+                                </tr>
+                                <!----->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="col-lg-4 offset-lg-4">
+            <div class="checkout">
+                <ul>
+
+                    <li class="cart-total">Total
+                        <span>$70.00</span>
+                    </li>
+                </ul>
+                <a href="#" class="proceed-btn">Proceed to Checkout</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
